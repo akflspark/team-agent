@@ -1,0 +1,13 @@
+# Planning Agent 설정
+provider: claude          # "claude" 또는 "openai"
+
+# API 키 (환경변수 ANTHROPIC_API_KEY, OPENAI_API_KEY로도 설정 가능)
+anthropic_api_key: ""
+openai_api_key: ""
+
+# 모델 설정
+claude_model: claude-sonnet-4-20250514
+openai_model: gpt-4o
+
+# 출력 디렉토리
+output_dir: ./plans

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m planning_agent --help)",
+      "Bash(python3 -m markitdown \"/Users/baggiseung/Downloads/[LOY]초월시스템_초안.pptx\")",
+      "Bash(python3 -c \":*)",
+      "Bash(open \"/Users/baggiseung/Desktop/팀에이전트/plans/LOY_초월시스템_개발기획서.html\")",
+      "Bash(mkdir -p /Users/baggiseung/Desktop/team-agent/.claude/skills/plan-agent)",
+      "Bash(cp /Users/baggiseung/Desktop/team-agent/plan-agent/SKILL.md /Users/baggiseung/Desktop/team-agent/.claude/skills/plan-agent/SKILL.md)",
+      "Bash(git init:*)",
+      "Bash(gh auth:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
